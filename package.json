@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R nyan"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/asbjornenge/nanoemitter/issues"
   },
-  "homepage": "https://github.com/asbjornenge/nanoemitter"
+  "homepage": "https://github.com/asbjornenge/nanoemitter",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
 }

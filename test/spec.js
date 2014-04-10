@@ -1,7 +1,7 @@
 var assert = require('assert')
-var e      = require('../modules/eventemitter')()
+var e      = require('../nanoemitter')()
 
-describe('TAGUHB EVENT EMITTER', function() {
+describe('NANOEMITTER', function() {
 
     it('Should bind functions via .on', function() {
         e.on('test', function() {})

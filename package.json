@@ -1,0 +1,29 @@
+{
+  "name": "nanoemitter",
+  "version": "0.0.1",
+  "description": "Tiny event emitter",
+  "main": "nanoemitter.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asbjornenge/nanoemitter.git"
+  },
+  "keywords": [
+    "event",
+    "events",
+    "trigger",
+    "listener",
+    "emitter"
+  ],
+  "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/asbjornenge/nanoemitter/issues"
+  },
+  "homepage": "https://github.com/asbjornenge/nanoemitter"
+}

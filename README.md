@@ -1,5 +1,8 @@
 # Nanoemitter
 
+[![browser support](https://ci.testling.com/asbjornenge/nanoemitter.png)
+](https://ci.testling.com/asbjornenge/nanoemitter)
+
 Nanoemitter is a tiny event emitter.
 
 	1330 B nanoemitter.min.js    // minified

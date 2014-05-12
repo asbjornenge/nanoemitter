@@ -1,6 +1,6 @@
 {
   "name": "nanoemitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tiny event emitter",
   "main": "nanoemitter.js",
   "directories": {

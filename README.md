@@ -28,4 +28,14 @@ Nanoemitter is available on npm.
 
 For full documentation see the [spec](https://github.com/asbjornenge/nanoemitter/blob/master/test/spec.js).  
 
+### Changelog
+
+#### 0.0.2
+
+Only accepting functions.
+
+#### 0.0.1
+
+Initial release. YaY!
+
 enjoy.

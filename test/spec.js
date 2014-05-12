@@ -42,4 +42,13 @@ describe('NANOEMITTER', function() {
         e.trigger('data','eple')
     })
 
+    it('Should avoid adding anything but functions', function() {
+        e.on('strings', 'teeeesting')
+        assert(e.listeners.strings === undefined)
+        e.on('objects', {})
+        assert(e.listeners.objects === undefined)
+        e.on('null', null)
+        assert(e.listeners.null === undefined)
+    })
+
 })

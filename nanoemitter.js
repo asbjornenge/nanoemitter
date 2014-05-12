@@ -2,6 +2,7 @@ function eventemitter() {
     this.listeners = {}
 }
 eventemitter.prototype.on = function(event, fn) {
+    if (typeof fn !== 'function') return this
     if (typeof this.listeners[event] == 'undefined') this.listeners[event] = []
     this.listeners[event].push(fn)
     return this
@@ -18,7 +19,7 @@ eventemitter.prototype.off = function(event, fn) {
 eventemitter.prototype.trigger = function(event, data) {
     if (typeof this.listeners[event] == 'undefined') return this
     for (var i in this.listeners[event]) {
-        this.listeners[event][i](data)
+        if (typeof this.listeners[event][i] === 'function') this.listeners[event][i](data)
     }
     return this
 }
